@@ -4,10 +4,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.color-primary{
+
+.color-primary {
     color: #FD6E0A
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FD6E0A;
     border-radius: 5px;
     border: 0;
@@ -15,27 +17,32 @@ body {
     font-weight: 700;
     font-size: 20px;
     padding: 15px 25px;
+    cursor: pointer;
 }
 
 /* Nav styles */
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 170px;
 }
-.nav-title{
+
+.nav-title {
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
 }
+
 nav li a {
     text-decoration: none;
     margin-right: 50px;
@@ -44,14 +51,56 @@ nav li a {
 }
 
 /* Header related styles */
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* background-size: 50%; */
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin: 8px 0 0;
+}
+
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner-btn2{
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 35px;
+    background: none;
+    margin-left: 10px;
+    cursor: pointer;
 }
