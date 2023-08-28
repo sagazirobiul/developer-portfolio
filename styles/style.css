@@ -79,21 +79,21 @@ nav li a {
     margin-bottom: 0;
 }
 
-.banner-title{
+.banner-title {
     color: #181818;
     font-size: 85px;
     font-weight: 700;
     margin: 8px 0 0;
 }
 
-.banner-description{
+.banner-description {
     font-size: 18px;
     color: #757575;
     font-weight: 400;
     line-height: 30px;
 }
 
-.banner-btn2{
+.banner-btn2 {
     border: 2px solid #FD6E0A;
     border-radius: 5px;
     color: #FD6E0A;
@@ -103,4 +103,28 @@ nav li a {
     background: none;
     margin-left: 10px;
     cursor: pointer;
+}
+
+/* main related styles */
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+/* about section styles */
+.about {
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
