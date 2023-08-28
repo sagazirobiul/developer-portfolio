@@ -23,24 +23,35 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 170px;
 }
 .nav-title{
     font-size: 45px;
     font-weight: 800;
 }
-
 nav > ul {
     display: flex;
     align-items: center;
 }
-
 nav li{
     list-style: none;
 }
-
 nav li a {
     text-decoration: none;
     margin-right: 50px;
     color: #474747;
     font-size: 20px;
+}
+
+/* Header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
